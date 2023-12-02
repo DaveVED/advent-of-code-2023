@@ -14,7 +14,7 @@
   </a>
 </p>
 
-Advent of Code 2023 using typescript, the peoples langague.
+[Advent of Code 2023](https://adventofcode.com/2023) using typescript, the peoples langague.
 
 ## Validations & Running
 
