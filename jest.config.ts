@@ -2,7 +2,7 @@ import type { Config } from '@jest/types';
 
 const config: Config.InitialOptions = {
     verbose: true,
-    roots: ['<rootDir>/src', '<rootDir>/src'],
+    roots: ['<rootDir>/src'],
     testEnvironment: 'node',
     testMatch: ['**/*.test.ts'],
     transform: {

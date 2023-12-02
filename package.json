@@ -8,9 +8,9 @@
     "format:write": "prettier --ignore-path .gitignore --write src/**/*.ts",
     "format:check": "prettier --ignore-path .gitignore --check src/**/*.ts",
     "lint": "eslint --ignore-path .gitignore . src/**/*.ts",
-    "ts-node": "ts-node",
+    "prepare": "husky install",
     "test": "jest --coverage",
-    "prepare": "husky install"
+    "ts-node": "ts-node"
   },
   "devDependencies": {
     "@types/jest": "^29.5.10",
