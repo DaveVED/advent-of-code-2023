@@ -6,7 +6,7 @@ import {
     solveDayTwo,
 } from './day-two';
 
-describe('Day One Tests', () => {
+describe('Day Two Tests', () => {
     describe('extractCubes', () => {
         it('can extract cubes from string input', () => {
             expect(
@@ -46,7 +46,7 @@ describe('Day One Tests', () => {
     describe('sumPowersOfGames', () => {
         it('calculates the total power of all games', () => {
             const games = readTextFile('./src/day-two/inputs/puzzle-input.txt');
-            expect(sumPowersOfGames(games)).toBe(72513); // Adjust this value based on actual input
+            expect(sumPowersOfGames(games)).toBe(72513);
         });
     });
 
@@ -54,7 +54,7 @@ describe('Day One Tests', () => {
         it('reads in file and calculates the total power of all games', () => {
             expect(solveDayTwo('./src/day-two/inputs/puzzle-input.txt')).toBe(
                 72513
-            ); // Adjust this value based on actual input
+            );
         });
     });
 });
