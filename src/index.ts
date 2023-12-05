@@ -1,6 +1,7 @@
 import { solveDayOne } from './day-one/day-one';
 import { solveDayTwo } from './day-two/day-two';
 import { solveDayThree } from './day-three/day-three';
+import { solveDayFour } from './day-four/day-four';
 
 // Day 1
 const dayOneFilePath = './src/day-one/inputs/puzzle-input.txt';
@@ -16,3 +17,8 @@ console.log(`Day TWO answer is: ${dayTwoAnswer}`);
 const dayThreeFilePath = './src/day-three/inputs/puzzle-input.txt';
 const dayThreeAnswer = solveDayThree(dayThreeFilePath);
 console.log(`Day THREE answer is: ${dayThreeAnswer}`);
+
+// Day 4
+const dayFourFilePath = './src/day-four/inputs/puzzle-input.txt';
+const dayFourAnswer = solveDayFour(dayFourFilePath);
+console.log(`Day FOUR answer is: ${dayFourAnswer}`);
